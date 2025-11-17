@@ -18,9 +18,11 @@ do{
 
     switch (opcao){
         case 1:
+        contarLinhas();
         system("pause");
         break;
         case 2:
+        contarPalavras();
         system("pause");
         break;
         case 3:
