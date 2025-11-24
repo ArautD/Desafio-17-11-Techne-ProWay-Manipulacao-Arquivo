@@ -7,7 +7,7 @@
 using namespace std;
 
 void contarPalavras(){
-    ifstream arquivo("dados2.txt");
+    ifstream arquivo("dados.txt"); //Interessante adicionar pro usuario digitar uma frase no inicio do programa pra carregar ela no arquivo já
     string linha;
     int contador = 0;
 

@@ -9,11 +9,11 @@ void exibeMenu(){
 do{
     system("cls");
     std::cout << "\n=============== Menu de Seleção ===============\n";
-    std::cout << "Verficiar quantas linhas tem no arquivo" << std::endl;
-    std::cout << "Contar quantas palavras tem no arquivo" << std::endl;
-    std::cout << "Encontrar uma palavra" << std::endl;
-    std::cout << "Exibir maior e menor número" << std::endl;
-    std::cout << "Trocar CACHORRO por MINGAU" << std::endl;
+    std::cout << "(1) Verficiar quantas linhas tem no arquivo" << std::endl;
+    std::cout << "(2) Contar quantas palavras tem no arquivo" << std::endl;
+    std::cout << "(3) Encontrar uma palavra" << std::endl;
+    std::cout << "(4) Exibir maior e menor número" << std::endl;
+    std::cout << "(5) Trocar CACHORRO por MINGAU" << std::endl;
     std::cin >> opcao;
 
     switch (opcao){
@@ -30,11 +30,14 @@ do{
         system("pause");
         break;
         case 4:
+        maiorMenorPalavra();
         system("pause");
         break;
         case 5: 
+        trocaPalavra();
         system("pause");
         break;
+
         case 0:
         system("cls");
         cout << "Saindo...\n"; break;

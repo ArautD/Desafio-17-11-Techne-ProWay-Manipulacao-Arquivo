@@ -16,8 +16,9 @@ void buscarPalavra(){
         return;
     }
 
-    cout << "Qual a palavra que deseja procurar?";
-    cin >> "usuário: " >> palavraInput;
+    std::cout << "Qual a palavra que deseja procurar?" << std::endl;
+    std::cin >> palavraInput;
+    std::cout << "usuário: " << palavraInput << std::endl;
 
     while (getline(arquivo, linha)){
         if (linha.find(palavraInput) != string::npos){

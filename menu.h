@@ -3,6 +3,8 @@
 #include "contadorLinhas.h"
 #include "contadorPalavras.h"
 #include "buscadorPalavra.h"
+#include "exibeMaiorMenor.h"
+#include "substituirPalavra.h"
 
 void exibeMenu();
 
